@@ -16,6 +16,6 @@
       return carAge;
     }
   }
-  const car = new Car("Honda", "Civic", 2024);
-  console.log(car.getCarAge());
+  // const car = new Car("Honda", "Civic", 2024);
+  // console.log(car.getCarAge());
 }

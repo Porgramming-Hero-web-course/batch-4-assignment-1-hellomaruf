@@ -11,5 +11,5 @@
     });
     return countNum;
   };
-  console.log(countWordOccurrences("Hello bro", "Bro"));
+ 
 }

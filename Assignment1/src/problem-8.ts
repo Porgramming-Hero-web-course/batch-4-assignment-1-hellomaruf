@@ -4,6 +4,6 @@
   const validateKeys = <T extends object>(obj: T, keys: string[]): boolean => {
     return keys.every((key) => key in obj);
   };
-  const person = { name: "Alice", age: 25, gender: "alice@example.com" };
-  console.log(validateKeys(person, ["name", "gender"]));
+  // const person = { name: "Alice", age: 25, gender: "alice@example.com" };
+  // console.log(validateKeys(person, ["name", "gender"]));
 }
