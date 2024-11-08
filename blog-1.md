@@ -9,9 +9,11 @@ Union types allow a variable to hold more than one type of value. Think of them 
 To define a union type in TypeScript, use the | symbol .
 
 Example : 
+```typescript
 let score: number | string;
 score = 100;     
-score = "A+";      
+score = "A+"; 
+```     
 
 Union types are handy when you want a variable to accept multiple types without strict limitations. Here are some examples.
 
@@ -24,6 +26,7 @@ Union types are handy when you want a variable to accept multiple types without 
 Intersection types combine multiple types into one. Think of them as an (and) type. When you use an intersection type, the variable must satisfy all the types you define.
 
 Example : 
+```typescript
 type User = { name: string };
 type Admin = { permissions: string[] };
 
@@ -33,5 +36,7 @@ const admin: AdminUser = {
   name: "Alice",
   permissions: ["read", "write"],
 };
-
+```
 Intersection types are useful when you want to create a new type by combining existing types.
+
+These types add flexibility and control to TypeScript, making it easier to handle different data structures and write cleaner, more organized code. Understanding when and how to use each type can significantly improve your TypeScript skills!
