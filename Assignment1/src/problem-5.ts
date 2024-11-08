@@ -3,6 +3,6 @@
   const getProperty = <T, K extends keyof T>(personObj: T, key: K) => {
     return personObj[key];
   };
-  const person = { name: "Alice", age: 30 };
-  console.log(getProperty(person, "age"));
+//   const person = { name: "Alice", age: 30 };
+//   console.log(getProperty(person, "name"));
 }
