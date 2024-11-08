@@ -9,7 +9,6 @@ Union types allow a variable to hold more than one type of value. Think of them 
 To define a union type in TypeScript, use the | symbol .
 
 Example : 
-```typescript
 let score: number | string;
 score = 100;     
 score = "A+";      
